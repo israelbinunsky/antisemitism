@@ -70,7 +70,7 @@ class Researcher:
                   'uppercase_words': uppercase_words
         }
         with open("C:/Users/israel/Desktop/data/antisemitism/results/results.json", "w") as j:
-            json.dump(result, indent=4)
+            json.dump(result, j, indent=4)
 
 
 
