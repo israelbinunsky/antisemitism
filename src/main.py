@@ -3,4 +3,4 @@ from researcher import Researcher
 
 loader = Loader()
 researcher = Researcher(loader.df)
-researcher.length_calculation()
+researcher.write_results_to_json()
